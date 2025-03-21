@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import connectToDatabase from "../../lib/mongodb";
-import Post from "../../models/Post";
+import connectToDatabase from "../../lib/mongodb.js";
+import Post from "../../models/Post.js";
 
 // Obtener posts y publicar nuevos
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
