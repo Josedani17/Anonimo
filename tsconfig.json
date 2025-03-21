@@ -28,7 +28,7 @@
     "**/*.ts",
     "**/*.tsx",
     "next.config.js",
-    "lib/mongodb.js"
+    "src/lib/mongodb.js"
   ],
   "exclude": [
     "node_modules"
