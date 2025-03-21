@@ -23,4 +23,4 @@ const Post: React.FC<PostProps> = ({ id, title, content, saved, onSave }) => {
   );
 };
 
-export default Post;
+export default Post; // Asegúrate de exportarlo correctamente como "default"
